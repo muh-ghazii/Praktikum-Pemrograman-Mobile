@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dice Roller App</string>
+    <string name="roll">Roll</string>
+    <string name="roll2">Roll</string>
+    <string name="title_activity_compose_main">ComposeMainActivity</string>
+    <string name="Description">Description\n</string>
+    <string name="DescriptionImage">DescriptionImage</string>
+</resources>

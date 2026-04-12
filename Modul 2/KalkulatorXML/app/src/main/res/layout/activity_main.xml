@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_vertical"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate_tip"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#394941"
+            android:layout_marginBottom="16dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/MaroonTextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxBackgroundColor="#E7E0EC"
+            app:startIconDrawable="@drawable/ic_money"
+            app:startIconTint="@color/maroon"
+            app:hintTextColor="@color/maroon">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/billAmountEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/bill_amount"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/MaroonTextInputLayout.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:hint="@string/tip_percentage"
+            app:boxBackgroundColor="#E7E0EC"
+            app:startIconDrawable="@drawable/ic_percent"
+            app:startIconTint="@color/maroon"
+            app:startIconContentDescription="@string/tip_percentage"
+            app:endIconTint="@color/maroon"
+            app:hintTextColor="@color/maroon"
+            app:hintEnabled="true">
+
+            <AutoCompleteTextView
+                android:id="@+id/tipOptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tip_percentage"
+                android:inputType="none"
+                android:saveEnabled="false"
+                tools:ignore="SpeakableTextPresentCheck,LabelFor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="32dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/round_up_tip"
+                android:textColor="#49454F"
+                android:textSize="16sp"/>
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:id="@+id/roundUpSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/MaroonSwitchTheme"
+                app:thumbTint="@color/switch_thumb_color"
+                app:trackTint="@color/switch_track_color" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tipResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip_amount"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#001D23"
+            tools:text="Tip Amount: $0.00"/>
+
+    </LinearLayout>
+</layout>
