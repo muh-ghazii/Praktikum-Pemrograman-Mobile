@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FilmApp</string>
+    <string name="title_home">Film Indonesia</string>
+    <string name="imdb">IMDB</string>
+    <string name="detail">Detail</string>
+    <string name="featured_film">Featured Film</string>
+    <string name="semua_film">Semua Film</string>
+</resources>
