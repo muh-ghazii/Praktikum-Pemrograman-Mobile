@@ -8,7 +8,7 @@ Repository ini berisi kumpulan laporan dan project praktikum mata kuliah **Pemro
 
 ---
 
-## 👤 Identitas Mahasiswa
+## Identitas Mahasiswa
 
 | Keterangan | Detail |
 |---|---|
@@ -18,7 +18,7 @@ Repository ini berisi kumpulan laporan dan project praktikum mata kuliah **Pemro
 
 ---
 
-## 📂 Struktur Repository
+## Struktur Repository
 
 ```
 Praktikum-Pemrograman-Mobile/
@@ -31,7 +31,7 @@ Praktikum-Pemrograman-Mobile/
 
 ---
 
-## 📋 Daftar Modul
+## Daftar Modul
 
 ### Modul 1 — Pengenalan Android Studio & Kotlin
 Pengenalan dasar pengembangan aplikasi Android menggunakan Android Studio dan bahasa pemrograman Kotlin.
@@ -72,7 +72,7 @@ Melanjutkan aplikasi FilmApp dengan koneksi ke internet menggunakan:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Teknologi | Kegunaan |
 |---|---|
@@ -91,7 +91,7 @@ Melanjutkan aplikasi FilmApp dengan koneksi ke internet menggunakan:
 
 ---
 
-## 🏗️ Arsitektur
+## Arsitektur
 
 Project menggunakan arsitektur **MVVM (Model-View-ViewModel)** dengan pola **Repository** sebagai single source of truth.
 
@@ -108,7 +108,7 @@ Remote API      Local Database
 
 ---
 
-## 🚀 Cara Menjalankan Project
+## Cara Menjalankan Project
 
 1. Clone repository ini
 ```bash
@@ -126,7 +126,7 @@ const val TMDB_API_KEY = "API_KEY_KAMU"
 
 ---
 
-## 📸 Screenshot Aplikasi
+## Screenshot Aplikasi
 
 ### FilmApp — Compose (Modul 5)
 | Home Screen | Detail Screen |
@@ -135,6 +135,6 @@ const val TMDB_API_KEY = "API_KEY_KAMU"
 
 ---
 
-## 📝 Lisensi
+## Lisensi
 
 Project ini dibuat untuk keperluan **akademik** sebagai bagian dari praktikum mata kuliah Pemrograman Mobile.
