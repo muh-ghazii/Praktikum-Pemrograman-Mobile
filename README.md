@@ -125,16 +125,3 @@ const val TMDB_API_KEY = "API_KEY_KAMU"
 4. Jalankan aplikasi di emulator atau perangkat fisik
 
 ---
-
-## Screenshot Aplikasi
-
-### FilmApp — Compose (Modul 5)
-| Home Screen | Detail Screen |
-|---|---|
-| Menampilkan Featured Film dan Semua Film dari TMDB API | Menampilkan detail lengkap film yang dipilih |
-
----
-
-## Lisensi
-
-Project ini dibuat untuk keperluan **akademik** sebagai bagian dari praktikum mata kuliah Pemrograman Mobile.
