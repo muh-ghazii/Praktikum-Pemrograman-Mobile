@@ -13,6 +13,7 @@ Repository ini berisi kumpulan laporan dan project praktikum mata kuliah **Pemro
 | Keterangan | Detail |
 |---|---|
 | **Nama** | Muhammad Ghazi Rakhmadi |
+| **NIM** | 2410817310009 |
 | **GitHub** | [@muh-ghazii](https://github.com/muh-ghazii) |
 | **Mata Kuliah** | Pemrograman Mobile |
 
